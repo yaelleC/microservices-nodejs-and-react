@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Yaelle\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.1
+3 info using node@v11.4.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle comments@1.0.0~prestart: comments@1.0.0
+6 silly lifecycle comments@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle comments@1.0.0~start: comments@1.0.0
+8 verbose lifecycle comments@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle comments@1.0.0~start: PATH: C:\Users\Yaelle\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\Yaelle\Documents\Projects\udemy-microservices-nodejs-and-react\mini-microservices app\comments\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Gow\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\Yaelle\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Yaelle\AppData\Local\Programs\GitBash\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Ruby21\bin;C:\Program Files\Java\jre7;C:\Program Files\nodejs;C:\Python27;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Mercurial;C:\Users\Yaelle\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Yaelle\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\activator\bin;C:\Program Files\Docker Toolbox;;C:\Users\Yaelle\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\
+10 verbose lifecycle comments@1.0.0~start: CWD: C:\Users\Yaelle\Documents\Projects\udemy-microservices-nodejs-and-react\mini-microservices app\comments
+11 silly lifecycle comments@1.0.0~start: Args: [ '/d /s /c', 'nodemon index.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process/per_thread.js:198:13)
+12 verbose stack     at process.listener (C:\Users\Yaelle\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at process.emit (events.js:189:13)
+13 verbose cwd C:\Users\Yaelle\Documents\Projects\udemy-microservices-nodejs-and-react\mini-microservices app\comments
+14 error Windows_NT 10.0.19042
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Yaelle\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v11.4.0
+17 error npm  v4.1.1
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
